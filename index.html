@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Staj Project</title>
@@ -11,16 +11,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <!-- Left Arrow -->
-  <div class="leftArrow">
-    <button id="leftBtn">
-      <i class="fa-solid fa-arrow-right"></i>
-    </button>
-  </div>
-  <!-- Left Arrow Menu -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="leftArrow">
+      <button id="leftBtn">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+      <!-- Left Arrow Menu -->
   <div class="leftMenuContainer">
     <div class="itemName">
       <h3>Item 1</h3>
@@ -39,7 +47,8 @@
       
     </div>
   </div>
-  <!-- Right Arrow -->
+
+    <!-- Right Arrow -->
   <div class="rightArrow">
     <button id="rightBtn">
       <i class="fa-solid fa-arrow-left"></i>
@@ -64,10 +73,8 @@
       
     </div>
   </div>
-  <canvas class="canvas"></canvas>
+    <canvas id="canvas"></canvas>
 
- 
-
-<script src="script.js"></script>
-</body>
+    <script src="index.jsx"></script>
+  </body>
 </html>
