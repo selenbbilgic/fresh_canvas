@@ -30,7 +30,8 @@ body {
 .rightArrow button {
   font-size: 2.5rem;
   padding: 0 1rem;
-  background-color: transparent;
+  background-color: darkgray;
+  color: white;
   position: absolute;
   top: 0;
   width: 40px; /* Adjust the width as needed */
@@ -48,7 +49,7 @@ body {
 .leftMenuContainer {
   position: absolute;
   top: 4%;
-  background-color: aqua;
+  background-color: darkgray;
   height: calc(100vh - 6rem);
   width: 30rem;
   left: -100%;
@@ -61,7 +62,7 @@ body {
 .rightMenuContainer {
   position: absolute;
   top: 4%;
-  background-color: aqua;
+  background-color: darkgray;
   height: calc(100vh - 6rem);
   width: 30rem;
   right: -100%;
